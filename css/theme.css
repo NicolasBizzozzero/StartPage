@@ -1,0 +1,47 @@
+html {
+    /* Sticky footer, thanks to : mystrd.at/modern-clean-css-sticky-footer */
+    position: relative;
+    min-height: 100%;
+}
+
+body {
+    margin: 0 0 100px;              /* bottom = footer height */
+    background-color: #FFFFFF;
+}
+
+footer {
+    /* Sticky footer, thanks to : mystrd.at/modern-clean-css-sticky-footer */
+    position: absolute;
+    left: 0;
+    bottom: 0;
+    height: 100px;
+    width: 100%;
+    text-align: center;
+}
+
+#background_image {
+    position: absolute;
+    width: 100%;
+    height: 100%;
+    background-color: #FFFFFF;
+    background-repeat: no-repeat;
+    background-position: left bottom;
+    background-size:cover;
+}
+
+#content {
+    
+}
+
+#div_inputtext {
+    position: fixed;
+    top: 50%;
+    left: 45%;
+    margin-left: -100px;    /* Width of image /2 */
+    margin-top: -100px;     /* Height of image /2 */
+}
+
+#textbox {
+    padding: 0px 10px;
+    line-height: 35px;
+}
